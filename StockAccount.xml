@@ -1,0 +1,49 @@
+<suite name="Stock Account test suite">
+	<test name="Admin login test case">
+		<classes>
+			<class name="TestRunners.AdminLoginTestCase"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="Admin Login With Invalid inputs test case">
+		<classes>
+			<class name="TestRunners.AdminLoginwithInvalidInputs"></class>
+		</classes>
+		</test>
+		
+		
+		
+		<test name="stockItem test case">
+			<classes>
+				<class name="TestRunners.StockitemTestcase"></class>
+			</classes>
+		</test>
+		
+		
+		
+		<test name="supplier_module testcase">
+			<classes>
+				<class name="TestRunners.supplier_moduletestcase"></class>
+			</classes>
+			
+		</test>
+		
+		
+		<test name="purchases test case">
+			<classes>
+				<class name="TestRunners.purchase_moduleTestcase"></class>
+			</classes>
+		</test>
+		
+		
+	<test name="custmor module test case">
+		<classes>
+			<class name="TestRunners.customermoduleTestcase"></class>
+		</classes>
+	</test>
+	
+	
+	
+	
+</suite>
